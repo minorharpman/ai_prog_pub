@@ -1,0 +1,7 @@
+A Selenium egy Python könyvtár , ami lehetővé teszi, hogy automatizáld a böngészőt.
+A Selenium „böngészőt nyit”, valójában  egy WebDriver-t indít el, ami a kiválasztott böngészőhöz kapcsolódik.
+A WebDriver a Selenium és a böngésző között közvetít, így tudsz Python kóddal navigálni, kattintani, űrlapot kitölteni.
+Futtatás:
+
+
+py laptophu_adatletoltes_public.py --url https://www.laptop.hu/kirakat
