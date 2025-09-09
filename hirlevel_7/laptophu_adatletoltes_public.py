@@ -182,10 +182,14 @@ if __name__ == "__main__":
     df = pd.DataFrame(products)
 
     # Excel fájl mentése
-    excel_path = out_dir / "products.xlsx"
-    df.to_excel(excel_path, index=False)
+    # excel_path = out_dir / "products.xlsx"
+    # df.to_excel(excel_path, index=False)
 
-    print(f"Mentve ide: {excel_path}")
+    # CSV fájl mentése
+    csv_path = out_dir / "products.csv"
+    df.to_csv(csv_path, index=False, encoding="utf-8")
+
+    print(f"Mentve ide: {csv_path}")
 
 
     print("\n=== EREDMÉNY ===")
