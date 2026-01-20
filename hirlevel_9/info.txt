@@ -1,1 +1,1 @@
-
+Ebben a hírlevélben egy nagyon egyszerű, a TF-IDF + koszinusz hasonlóság alapú keresésre épülő programot nézünk meg. 
