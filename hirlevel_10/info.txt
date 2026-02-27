@@ -1,0 +1,1 @@
+Folytatom a TF-IDF + koszinusz hasonlóság + szótövezésre épülő chatbot építését. 
